@@ -2,3 +2,5 @@ pip==22.1.2
 setuptools==62.6.0
 wheel==0.37.1
 mediawiki-utilities==0.4.18
+mwparserfromhell==0.6.4
+bz2file==0.98
