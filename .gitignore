@@ -6,4 +6,5 @@
 !.gitignore
 !.gitconfig
 !.profile
+!.bash_aliases
 !scripts/
