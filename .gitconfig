@@ -1,0 +1,25 @@
+[user]
+	name = TheresNoTime
+	email = sam@theresnotime.co.uk
+[gitreview]
+	remote = origin
+	username = samtar
+[fetch]
+	pruneTags=true
+[core]
+	editor = nano
+	compression = 0
+	autocrlf = false
+	fscache = true
+	symlinks = true
+	fsmonitor = true
+[status]
+	submoduleSummary = true
+[init]
+	defaultBranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/mnt/nfs/labstore-secondary-tools-home/samtar/gh_2.13.0_linux_amd64/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/mnt/nfs/labstore-secondary-tools-home/samtar/gh_2.13.0_linux_amd64/bin/gh auth git-credential
